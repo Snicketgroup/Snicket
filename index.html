@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Snicket</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap css -->
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/modal-video/css/modal-video.min.css" rel="stylesheet">
+
+
+    
+    
+    
+  <!-- Main Stylesheet File -->
+<!--[if lte IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link href="css/style.css" rel="stylesheet">
+    
+    
+<!--    snic-->
+   
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="snic/stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="snic/css/blueTheme.css"/> 
+    <link rel="stylesheet" type="text/css" media="screen" href="snic/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="snic/css/bootstrap.css" />
+    <link rel="stylesheet" href="snic/style.css">
+    <link rel="stylesheet" href="snic/scss/_app.scss">
+    <link rel="stylesheet" href="snic/scss/_base.scss">
+    <link rel="stylesheet" href="snic/scss/_fullCalendar.scss">
+    <link rel="stylesheet" href="snic/scss/_home.scss">
+    <link rel="stylesheet" href="snic/scss/_responsive.scss">
+    <link rel="stylesheet" href="snic/scss/_variable.scss">
+    <link rel="stylesheet" href="snic/scss/blackTheme.scss">
+    <link rel="stylesheet" href="snic/scss/blueTheme.scss">
+    <link rel="stylesheet" href="snic/scss/glTheme.scss">
+    <link rel="stylesheet" href="snic/scss/greenTheme.scss">
+    <link rel="stylesheet" href="snic/scss/index.scss">
+    <link rel="stylesheet" href="snic/scss/lavenderTheme.scss">
+    <link rel="stylesheet" href="snic/scss/paytm.scss">
+    <link rel="stylesheet" href="snic/scss/yellowTheme.scss">
+    
+<!--    snic-->
+    
+</head>
+
+<body>
+
+  <header id="header" class="header header-hide" style="background-image: url(snic/media/14676317691518354387.jpg)">
+    <div class="container">
+       
+
+      <div id="logo" class="pull-left">
+        <h1><a href="index.html"><img src ="snic/media/logo1.png" style="width: 30px">nicket</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+      </div>
+
+       <nav id="nav-menu-container" >
+        <ul class="nav-menu">
+          <li class="menu-active" ><a href="index.html">Home</a></li>
+          <li class="menu-has-children" ><a href="competition.html">Competitions</a>
+            <ul>
+              <li><a href="lagos.html">League Alpha</a></li>
+              <li><a href="kicks.html">Summer Kicks</a></li>
+              <li><a href="tournament.html">Tournament</a></li>
+              <li><a href="lagos.html">Lagos Camp Doue</a></li>
+            </ul>
+          </li>
+            <li class="menu-has-children"><a href="#team">Teams</a>
+            <ul>
+                <li><a href="portfolio-2cols.html">International</a></li>
+                <li><a href="teams.html">Local</a></li>
+                <li><a href="portfolio-4cols.html">Private</a></li>
+              
+            </ul>
+            </li>
+          <li><a href="playerlist.html">Players</a></li>
+            <li><a href="#screenshots">Gallery</a></li>
+            <li><a href="about.html">Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+           <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#myModal2">Register</a></li>
+          
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+    
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+	<div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Log-in</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+    		<label for="exampleInputEmail1">Email address</label>
+    		<input class="form-control" id="exampleInputEmail1" placeholder="Enter email" type="email">
+  		  </div>
+		  <div class="form-group">
+		  	<label for="exampleInputPassword1">Password</label>
+			<input class="form-control" id="exampleInputPassword1" placeholder="Password" type="password">
+		  </div>
+          <p class="text-right"><a href="#">Forgot password?</a></p>
+            <p style="text-align: center"><a href="#" data-toggle="modal" data-target="#myModal3">Sign Up</a></p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" data-dismiss="modal" class="btn">Close</a>
+          <a href="#" class="btn btn-primary">Log-in</a>
+        </div>
+      </div>
+    </div>
+</div>
+    
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal2" aria-hidden="true">
+	<div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Register</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+    		<label for="exampleInputEmail1">Full Name</label>
+    		<input class="form-control" id="exampleInputFullname" placeholder="Enter your Full name" type="name">
+  		  </div>
+             <div class="form-group">
+    		<label for="exampleInputEmail1">Email</label>
+    		<input class="form-control" id="exampleInputEmail1" placeholder="Enter email" type="email">
+  		  </div>
+		  <div class="form-group">
+		  	<label for="exampleInputPassword1">Password</label>
+			<input class="form-control" id="exampleInputPassword1" placeholder="Password" type="password">
+		  </div>
+            <div class="form-group">
+		  	<label for="exampleInputPassword2">Confirm Password</label>
+			<input class="form-control" id="exampleInputPassword2" placeholder="CPassword" type="cpassword">
+		  </div>
+            
+          <p class="text-right"><a href="#">Forgot password?</a></p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" data-dismiss="modal" class="btn">Close</a>
+          <a href="#" class="btn btn-primary">Register</a>
+        </div>
+      </div>
+    </div>
+</div>
+   
+ <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModal3" aria-hidden="true">
+	<div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Register</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+    		<label for="exampleInputEmail1">Full Name</label>
+    		<input class="form-control" id="exampleInputFullname" placeholder="Enter your Full name" type="name">
+  		  </div>
+             <div class="form-group">
+    		<label for="exampleInputEmail1">Email</label>
+    		<input class="form-control" id="exampleInputEmail1" placeholder="Enter email" type="email">
+  		  </div>
+		  <div class="form-group">
+		  	<label for="exampleInputPassword1">Password</label>
+			<input class="form-control" id="exampleInputPassword1" placeholder="Password" type="password">
+		  </div>
+            <div class="form-group">
+		  	<label for="exampleInputPassword2">Confirm Password</label>
+			<input class="form-control" id="exampleInputPassword2" placeholder="CPassword" type="cpassword">
+		  </div>
+            
+          <p class="text-right"><a href="#">Forgot password?</a></p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" data-dismiss="modal" class="btn">Close</a>
+          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Register</a>
+        </div>
+      </div>
+    </div>
+</div>
+    
+<script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>
+    <script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal2").modal();
+    });
+});
+</script>
+        <script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal3").modal();
+    });
+});
+</script>
+    
+    <hr>
+    <!-- Heading -->
+<div id="heading">
+  <div class="shell">
+    <div id="heading-cnt">
+      <!-- Sub nav -->
+      <div id="side-nav">
+        <ul>
+          <li class="active">
+            <div class="link"><a href="main.html">Fixtures</a></div>
+          </li>
+          <li>
+            <div class="link"><a href="#">ranking</a></div>
+          </li>
+          <li>
+            <div class="link"><a href="widgets.html">scoreboard</a></div>
+          </li>
+          <li>
+            <div class="link"><a href="#">schedules</a></div>
+          </li>
+          <li>
+            <div class="link"><a href="snicketapp.html">snicketapp</a></div>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- End Sub nav -->
+      <!-- Widget -->
+      <div id="heading-box">
+        <div id="heading-box-cnt">
+          <div class="cl">&nbsp;</div>
+          <!-- Main Slide Item -->
+          <div class="featured-main"> <a href="#"><img src="images/snic.gif" alt="" /></a>
+            <div class="featured-main-details">
+              <div class="featured-main-details-cnt">
+                <h4>The Home of Cricket Games</h4>
+                <p>Lo</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Main Slide Item -->
+          <div class="featured-side">
+            <!-- Slide Item 1 -->
+            <div class="featured-side-item">
+              <div class="cl">&nbsp;</div>
+              <a href="#" class="left"><img src="images/1.jpg" alt="" /></a>
+              <h4><a href="#">Umpire reaching a consensus</a></h4>
+              <p>
+                </p>
+              <div class="cl">&nbsp;</div>
+            </div>
+            <!-- End Slide Item 1 -->
+            <!-- Slide Item 2 -->
+            <div class="featured-side-item">
+              <div class="cl">&nbsp;</div>
+              <a href="#" class="left"><img src="images/2.jpg" alt="" /></a>
+              <h4><a href="#">Award Recognision</a></h4>
+              <p></p>
+              <div class="cl">&nbsp;</div>
+            </div>
+            <!-- End Slide Item 2 -->
+            <!-- Slide Item 3 -->
+            <div class="featured-side-item">
+              <div class="cl">&nbsp;</div>
+              <a href="#" class="left"><img src="images/3.jpg" alt="" /></a>
+              <h4><a href="#">Preparing for the win</a></h4>
+              <p></p>
+              <div class="cl">&nbsp;</div>
+            </div>
+            <!-- End Slide Item 3 -->
+          </div>
+          <div class="cl">&nbsp;</div>
+        </div>
+      </div>
+      <!-- End Widget -->
+    </div>
+  </div>
+</div>
+<!-- End Heading -->
+    
+<!--    snic-->
+    
+    
+    <!--Whole Container -->
+    <div class="rca-container">
+
+      
+      <!--Widget Outer-->
+      <div class="rca-row">
+        <div class="rca-column-12">
+          <!--Widget Inner -->
+          <div class="rca-menu-scroll rca-left-border">
+            <ul class="rca-season-list">
+              <li>
+                <a href="/widgets.html">
+                  GCI vs PTC
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  KIT vs IBJ
+                </a>
+              </li>
+              <li>
+                <a href="/widgets.html">
+                  LTC vs MOC
+                </a>
+              </li>
+              <li>
+                <a href="/widgets.html">
+                  OGC vs IBC
+                </a>
+              </li>
+              <li>
+                <a href="/widgets.html">
+                  CAP vs GCI
+                </a>
+              </li>
+              <li>
+                <a href="/widgets.html">
+                  STC vs HKL
+                </a>
+              </li>
+                <li>
+                <a href="/widgets.html">
+                  GCI vs PTC
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  KIT vs IBJ
+                </a>
+              </li>
+              <li>
+                <a href="/widgets.html">
+                  LTC vs MOC
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--Widget Outer-->
+      <div class="rca-row">
+        <!--Widget Inner -->
+        <div class="rca-column-4">
+          <!--Live Season-->
+          <div class="rca-menu-widget rca-live-season rca-left-border">
+            <a href="/widgets.html" class="rca-padding">
+              <span class="rca-match-title rca-live-text">IBJ vs GCI : </span><span class="rca-match-score">IBJ 89/8 - 14.8(0)</span>
+              <span class="rca-live-label rca-right">Live</span>
+            </a>
+          </div>
+        </div>
+        
+        <!--Widget Inner -->
+        <div class="rca-column-4">
+          <!--Upcoming Match-->
+          <div class="rca-menu-widget rca-left-border">
+            <a href="/widgets.html" class="rca-padding">
+              <span class="rca-match-title">GCI vs LTC : </span><span class="rca-match-score">Sun, 15 Nov 2:10 pm IST</span>
+            </a>
+          </div>
+        </div>
+
+        <!--Widget Inner -->
+        <div class="rca-column-4">
+          <!--Upcoming Match-->
+          <div class="rca-menu-widget rca-left-border">
+            <a href="/widgets.html" class="rca-padding">
+              <span class="rca-match-title">LTC vs YUC : </span><span class="rca-match-score">India Won by 37 runs.</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="rca-row">
+        <div class="rca-column-3">
+          <!--Match Series-->
+          <div class="rca-news-widget rca-padding">
+            <h3>Latest News</h3>
+            <div class="rca-post">
+              <h4>
+                <a href="#">Rising Stars Trash Ibeju Lekki in Season Opener
+                </a>
+              </h4>
+              <p>The Season Opener was full of surprises as...</p>
+              <p class="rca-post-info">by Kunle Awosanmi · 1 month ago</p>
+            </div>
+            <div class="rca-post">
+              <h4>
+                <a href="#">Onikoyi off the mark with a Century
+                </a>
+              </h4>
+              <p>The First Ton scored by...</p>
+              <p class="rca-post-info">by Austin Awoniyi · 10 days ago</p>
+            </div>
+            <div class="rca-post">
+              <h4>
+                <a href="#">Heads or Tail?
+                </a>
+              </h4>
+              <p>An Exclusive on the best teams and their chances in the coming season</p>
+              <p class="rca-post-info">by Chimezie Onwuzulike · 3 days ago</p>
+            </div>
+          </div>
+
+        
+
+          </div>
+        </div>
+        <div class="rca-column-5">
+          <!--Match Series-->
+          <div class="rca-medium-widget rca-blog-content">
+            <div class="rca-blog-image"><br> 
+                <div class="rca-blog-head">
+                The Nigerian Team during their recent tour of South Africa for the Africa t20 competition
+              </div>
+            </div>
+              <video src="snic/media/IMG_1653.MOV" height="300px" width="450" controls ></video> 
+            </div>           
+          </div>
+        </div>
+        <div class="rca-column-4">
+          <!--Match Series-->
+          <div class="rca-mini-widget rca-top-border rca-tab-simple">
+            <ul class="rca-tab-list">
+              <li class="rca-tab-link active" data-tab="ltab-1" onclick="showTab(this);">Live</li>
+              <li class="rca-tab-link" data-tab="ltab-2" onclick="showTab(this);">Results</li>
+              <li class="rca-tab-link" data-tab="ltab-3" onclick="showTab(this);">Starts In</li>
+            </ul>
+            <div id="ltab-1" class="rca-padding rca-tab-content rca-multi-season active">    
+              <ul class="rca-tab-list">
+                <li class="rca-tab-link active" data-tab="iltab-1" onclick="showTab(this);">
+                  <span class="rca-live-label">IND vs NZL</span>
+                </li>
+                <li class="rca-tab-link" data-tab="iltab-2" onclick="showTab(this);">
+                  <span class="rca-live-label">BAK vs NZL</span>
+                </li>
+                <li class="rca-tab-link" data-tab="iltab-3" onclick="showTab(this);">
+                  <span class="rca-live-label">BAK vs NZL</span>
+                </li>
+              </ul> 
+              <div id="iltab-1" class="rca-tab-content active">         
+                <div class="rca-padding">
+                  <h3 class="rca-match-title">
+                    <a href="/widgets.html">
+                      IND: 173/2 in 18.5
+                    </a>
+                  </h3>
+                  <p class="rca-match-info">
+                    <span>IND: 16/1 in 1.0</span>
+                    <span>CRR:4.1</span>
+                    <span>Req RR:10.1</span>
+                  </p>
+                  <div class="rca-top-padding">
+                    <div class="rca-batsman striker">
+                      <span class="player">V Kohli</span>
+                      <span>48(27)</span>
+                    </div>
+                    <div class="rca-batsman">
+                      <span class="player">MS Dhoni</span>
+                      <span>14(8)</span>
+                    </div>
+                  </div>
+                  <div class="rca-ball-detail">
+                    <div class="rca-match-schedule">
+                      Over: 24
+                    </div>
+                    <ul class="rca-ball-by">
+                      <li class="b6">6</li>
+                      <li class="">1wd</li>
+                      <li class="w">w</li>
+                      <li class="">1</li>
+                      <li class="">2</li>
+                      <li class="b6">4</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="rca-top-padding rca-score-status">
+                  <div class="rca-status-scroll">
+                    FOUR!!! from Dhoni
+                  </div>
+                  <ul class="rca-bullet-list">
+                    <li class="active" data-tab="#status1"></li>
+                    <li data-tab="#status2"></li>
+                    <li data-tab="#status3"></li>
+                  </ul>
+                </div>
+              </div>
+              <div id="iltab-2" class="rca-tab-content">         
+                <div class="rca-padding">
+                  <h3 class="rca-match-title">
+                    <a href="/widgets.html">
+                      BAK: 93/8 in 19.2
+                    </a>
+                  </h3>
+                  <p class="rca-match-info">
+                    <span>BAK: 16/1 in 1.0</span>
+                    <span>CRR:4.1</span>
+                    <span>Req RR:10.1</span>
+                  </p>
+                  <div class="rca-top-padding">
+                    <div class="rca-batsman striker">
+                      <span class="player">V Kohli</span>
+                      <span>48(27)</span>
+                    </div>
+                    <div class="rca-batsman">
+                      <span class="player">MS Dhoni</span>
+                      <span>14(8)</span>
+                    </div>
+                  </div>
+                  <div class="rca-ball-detail">
+                    <div class="rca-match-schedule">
+                      Over: 24
+                    </div>
+                    <ul class="rca-ball-by">
+                      <li class="b6">6</li>
+                      <li class="">1wd</li>
+                      <li class="w">w</li>
+                      <li class="">1</li>
+                      <li class="">2</li>
+                      <li class="b6">4</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="rca-top-padding rca-score-status">
+                  <div class="rca-status-scroll">
+                    FOUR!!! from Dhoni
+                  </div>
+                  <ul class="rca-bullet-list">
+                    <li class="active" data-tab="#status1"></li>
+                    <li data-tab="#status2"></li>
+                    <li data-tab="#status3"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div id="ltab-2" class="rca-padding rca-tab-content">
+              <div class="rca-match-detail rca-padding">
+                <h3 class="rca-match-title">
+                  <a href="/widgets.html">BAN vs ZIM</a>
+                  <span class="rca-match-info rca-right">
+                    2nd T20 Match
+                  </span>
+                </h3>
+                <p class="rca-duration">Bangaladesh Won by 20 runs</p>
+                <p class="rca-match-schedule">Sun, 31 Jan 2:10 pm IST</p>
+              </div>
+              <div class="rca-match-detail rca-padding">
+                <h3 class="rca-match-title">
+                  <a href="/widgets.html">BAN vs ZIM</a>
+                  <span class="rca-match-info rca-right">
+                    2nd T20 Match
+                  </span>
+                </h3>
+                <p class="rca-duration">Bangaladesh Won by 20 runs</p>
+                <p class="rca-match-schedule">Sun, 31 Jan 2:10 pm IST</p>
+              </div>
+            </div>
+            <div id="ltab-3" class="rca-padding rca-tab-content">
+              <div class="rca-match-detail rca-padding">
+                <h3 class="rca-match-title">
+                  <a href="/widgets.html">BAN vs ZIM</a>
+                  <span class="rca-match-info rca-right">
+                    2nd T20 Match
+                  </span>
+                </h3>
+                <p class="rca-duration">Start in 21hrs</p>
+                <p class="rca-match-schedule">Sun, 31 Jan 2:10 pm IST</p>
+              </div>
+              <div class="rca-match-detail rca-padding">
+                <h3 class="rca-match-title">
+                  <a href="/widgets.html">BAN vs ZIM</a>
+                  <span class="rca-match-info rca-right">
+                    2nd T20 Match
+                  </span>
+                </h3>
+                <p class="rca-duration">Start in 21hrs</p>
+                <p class="rca-match-schedule">Sun, 31 Jan 2:10 pm IST</p>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      
+ 
+    
+    
+    
+    
+    
+<!--snic  -->
+
+ 
+  <!--==========================
+    Blog Section
+  ============================-->
+  <section id="blog" class="padd-section wow fadeInUp">
+
+    <div class="container">
+      <div class="section-title text-center">
+
+          <h2 style="text-align: center"><b>Latest posts</b></h2>
+        <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="block-blog text-left">
+            <a href="#"><img src="img/blog/1.jpg" alt="img"></a>
+            <div class="content-blog">
+              <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
+              <span>05, june 2017</span>
+              <a class="pull-right readmore" href="#">read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="block-blog text-left">
+            <a href="#"><img src="img/blog/2.jpg" class="img-responsive" alt="img"></a>
+            <div class="content-blog">
+              <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
+              <span>05, june 2017</span>
+              <a class="pull-right readmore" href="#">read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="block-blog text-left">
+            <a href="#"><img src="img/blog/3.jpg" style="width: 320px; height: 260px" alt="img"></a>
+            <div class="content-blog">
+              <h4><a href="#">whats ist he difference between good and bat typography</a></h4>
+              <span>05, june 2017</span>
+              <a class="pull-right readmore" href="#">read more</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Newsletter Section
+  ============================-->
+  <section id="newsletter" class="newsletter text-center wow fadeInUp">
+    <div class="overlay padd-section">
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <div class="col-md-9 col-lg-6">
+            <form class="form-inline" method="POST" action="#">
+
+              <input type="email" class="form-control " placeholder="Email Adress" name="email">
+              <button type="submit" class="btn btn-default"><i class="fa fa-location-arrow"></i>Subscribe</button>
+
+            </form>
+
+          </div>
+        </div>
+
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12 col-lg-4">
+          <div class="footer-logo">
+
+            <a class="navbar-brand" href="index.html" style="font-size: 150%">Snicket</a>
+            <p style="font-size: 150%">Snicket is a Sport Zone that combines passion with visibility.</p>
+
+          </div>
+        </div>
+
+
+        <div class="col-sm-12 col-lg-4">
+          <div class="list-menu">
+
+            <h4>About Us</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#" style="font-size: 150%">About us</a></li>
+              <li><a href="#" style="font-size: 150%">Features item</a></li>
+              <li><a href="#"style="font-size: 150%">Live streaming</a></li>
+              <li><a href="#"style="font-size: 150%">Privacy Policy</a></li>
+            </ul>
+
+          </div>
+        </div>
+           <div class="col-sm-12 col-lg-4">
+          <div class="list-menu">
+
+            <h4>Follow Us</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#" style="font-size: 150%"><img src ="snic/media/580b57fcd9996e24bc43c521.png" style="width: 40px">Snicket</a></li>
+              <li><a href="#" style="font-size: 150%; color: white"><img src ="snic/media/580b57fcd9996e24bc43c543.png" style="width: 40px"></a>09068695589</li>
+              <li><a href="#" style="font-size: 150%"><img src ="snic/media/584ac2d03ac3a570f94a666d.png" style="width: 40px">Snicket</a></li>
+            
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="copyrights">
+      <div class="container">
+        <p>&copy; Copyrights Snicket. All rights reserved.</p>
+        <div class="credits">
+          <!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eStartup
+          -->
+          Designed by <a href="https://bootstrapmade.com/">SnicketMade</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/modal-video/js/modal-video.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+    
+
+<!--    snic-->
+    <script>
+      function showTab(event) {
+        var sourceParent = event.parentElement.parentElement;
+        var sourceChilds = sourceParent.getElementsByClassName("rca-tab-content");
+        var sourceLinkParent = sourceParent.getElementsByClassName("rca-tab-link");
+        for (var i=0; i < sourceChilds.length; i++) {
+          sourceChilds.item(i).classList.remove("active");
+        }
+        for (var i=0; i < sourceLinkParent.length; i++) {
+          sourceLinkParent.item(i).classList.remove("active");
+        }
+        var dataTab= event.getAttribute("data-tab");
+
+        event.classList.add("active");
+        // document.getElementById(dataTab).className = tabClass + ' active';
+        document.getElementById(dataTab).className += ' active';
+      }
+
+    </script>
+
+    <script src="snic/jquery/jquery-3.3.1.min.js"></script>
+    <script src="snic/js/bootstrap.min.js"></script>
+    <script src="snic/main.js"></script>
+       <script href=".vs/VSWorkspaceState.json"></script>
+      <script href="snic/js/npm.js"></script>
+    
+<!--    snic-->
+</body>
+</html>
